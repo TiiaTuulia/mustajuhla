@@ -1,0 +1,171 @@
+.neucha-regular {
+  font-family: "Neucha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Neucha', cursive;
+  font-size: 3rem;
+  margin: 3rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; 
+    margin: 2rem; 
+  }
+}
+h2 {
+  font-family: 'Neucha', cursive;
+  font-size: 3rem;
+  margin: 3rem;
+  text-align: center;
+}
+h3 {
+  font-family: 'Neucha', cursive;
+  font-size: 2rem;
+  
+  margin: 3rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 1.5rem; 
+    margin: 2rem; 
+  }
+}
+
+body {
+  font-family: 'Source sans-serif', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+.container-fluid {
+  
+  padding-left:0;
+  padding-right:0;
+  
+}
+
+.content {
+        flex: 1;
+		width: 70%;
+		
+		
+    }
+	
+.link {	
+ color: #71797E;
+ text-decoration: underline;
+}
+.link:hover {	
+ color: black;
+ text-decoration: underline;
+ 
+}
+
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  margin-top: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+}
+
+.social-icon img {
+  max-width: 2.5rem; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease-in-out; /* Optional: Add a smooth transition on hover */
+}
+
+.social-icon img:hover {
+  transform: scale(1.2); /*Zoom effect on hover */
+}
+
+.navbar-nav .nav-item a,
+.navbar-nav .nav-item a:link,
+.navbar-nav .nav-item a:visited {
+  color: white !important;
+}
+
+.navbar {
+
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 2);
+  background-color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;  
+  z-index: 2;
+}
+.navbar-nav {
+  font-family: 'Neucha', cursive;
+  font-size: 18px;
+  transition: transform 0.3s ease-in-out;
+}
+.navbar-nav .nav-item {
+  background-color: black;
+  border-radius: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav-item {
+  margin: 0.5rem; 
+}
+.nav-item a{
+  text-decoration: none;  
+}
+
+.nav-item a:hover {
+  transform: scale(1.2);  
+}
+.position-relative {
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1; 
+}
+
+.carousel-inner {
+  z-index: 0; 
+}
+
+.video-container {
+    width: 100%;  
+}
+
+.video-container iframe {
+   width: 100%;
+}
+
+footer {
+      background-color: black;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      bottom: 0;
+      width: 100%;
+	  
+    }
+
+.text-row {
+      margin-top: 10px; /* Adjust as needed */
+}
+.text-row .copyright {
+  font-family: 'Neucha', cursive;
+  font-size: 1rem;
+}
